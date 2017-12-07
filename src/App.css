@@ -1,0 +1,113 @@
+@import './styles/base.css';
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.show-classname {
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+.App-title {
+  font-size: 1em;
+  background-color: gray;
+}
+.App-header {
+  background-color: #ffb3ba;
+}
+.main {
+  background-color: #ffdfba;
+}
+.aside {
+  background: #baffc9;
+}
+.footer {
+  background: #bae1ff;
+}
+
+/*------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+/* for desktop  with grid lines */
+
+/*.App {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}*/
+
+/*.App-title {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}*/
+/*.App-header {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}*/
+/*.main {
+  grid-column: 1/2;
+  grid-row: 2/4;
+}*/
+/*.aside {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}*/
+/*.footer {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}*/
+
+
+/*------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+/*for mobile and desktop with grid areas */
+
+/*@supports (grid-area: auto) {
+  .App-title {
+    grid-area: pageTitle;
+  }
+  .App-header {
+    grid-area: header;
+  }
+  .main {
+    grid-area: main;
+  }
+  .aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+
+  .App {
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "pageTitle"
+      "main"
+      "aside"
+      "footer";
+    grid-gap: 1em;
+  }
+  @media (min-width: 768px) {
+    .App {
+      grid-template-areas: 
+        "pageTitle pageTitle pageTitle"
+        "main header header"
+        "main aside footer";
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-rows: 1fr 2fr 2fr;
+    }
+  }
+}*/
+
+
+
+
