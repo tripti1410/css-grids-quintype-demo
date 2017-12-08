@@ -12,7 +12,7 @@ class App extends Component {
           <img src={logo} alt="logo" className="App-logo"/>
         </header>
         <main className="main">
-        <div className="show-classname">.main</div>
+          <div className="show-classname">.main</div>
           <ul>
             <li>
               <a>

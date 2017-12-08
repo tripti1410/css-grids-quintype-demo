@@ -25,7 +25,8 @@ Code for quintype session on CSS grids
 6. References: 
   i) Amazing presentation on css-grids:
       https://www.youtube.com/watch?v=7kVeCqQCxlk
-  ii) CSS advanced layout with grid: 
+  ii) Paid course -> CSS advanced layout with grid: 
       https://www.lynda.com/CSS-tutorials/Welcome/622088/651299-4.html?autoplay=true
-  iii) Detailed series with examples https://gridbyexample.com/examples/
+  iii) Detailed series with examples which covers all the properties of css -grids
+      https://gridbyexample.com/examples/
   
